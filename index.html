@@ -286,6 +286,19 @@
         font-size: 1.06rem;
       }
 
+      .about-copy .text-link {
+        color: var(--accent);
+        font-weight: 600;
+        text-decoration: underline;
+        text-decoration-color: rgba(23, 105, 210, 0.3);
+        text-underline-offset: 3px;
+        transition: text-decoration-color 160ms ease;
+      }
+
+      .about-copy .text-link:hover {
+        text-decoration-color: currentColor;
+      }
+
       .about-copy p:last-child {
         margin-bottom: 0;
       }
@@ -722,9 +735,10 @@
           <div class="about-copy">
             <p>
               I am currently an MPhil student at The Hong Kong University of
-              Science and Technology (Guangzhou), advised by Professor Zhijiang
-              Guo. Before that, I graduated from the University of Electronic
-              Science and Technology of China (UESTC).
+              Science and Technology (Guangzhou), advised by
+              <a class="text-link" href="https://cartus.github.io/" target="_blank" rel="noopener noreferrer">Professor Zhijiang Guo</a>.
+              Before that, I graduated from the University of Electronic Science
+              and Technology of China (UESTC).
             </p>
             <p>
               My research focuses on building autonomous and continually
